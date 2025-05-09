@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bish-Bosh 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bish-Bosh 2.0</h1>
+    </header>
+
+    <main>
+        <section>
+            <p>Bish-Bosh är ett klassiskt programmeringsproblem där vissa tal ersätts med ord baserat på delbarhet. Denna version låter dig själv välja vilka tal som ska ersättas, och hur långt programmet ska gå.</p>
+
+            <form id="bishBoshForm">
+                <label for="bish">Bish (Det första divisionstalet):</label>
+                <input type="number" id="bish" name="bish" min="1" required>
+
+                <label for="bosh">Bosh (Det andra divisionstalet):</label>
+                <input type="number" id="bosh" name="bosh" min="1" required>
+
+                <label for="loopLimit">Hur långt ska loopen gå?</label>
+                <input type="number" id="loopLimit" name="loopLimit" min="1" required>
+
+                <button type="submit">Kör Bish-Bosh 2.0</button>
+            </form>
+
+            <div id="result"></div>
+        </section>
+    </main>
+
+    <script src="bishbosh.js"></script>
+</body>
+</html>

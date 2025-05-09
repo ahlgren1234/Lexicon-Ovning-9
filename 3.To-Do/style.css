@@ -1,0 +1,39 @@
+body.light-theme {
+    background-color: #ffffff;
+    color: "#000000";
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+body.dark-theme .list-group-item {
+    background-color: #1e1e1e;
+    border-color: #333;
+    color: #f1f1f1;
+}
+
+body.green-theme {
+    background-color: #e9f7ef;
+    color: #155724;
+}
+
+body.green-theme .list-group-item {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.purchased {
+    text-decoration: line-through;
+    background-color: #d4edda !important;
+}
+
+li {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #f1f1f1;
+}
